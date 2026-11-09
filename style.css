@@ -1,0 +1,86 @@
+:root {
+    --vermelho: #ff3131
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+main{
+    font-family: "Red Hat Display", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    padding: 35px;
+}
+
+.texto-entrar-com{
+    font-size: 48px;
+    font-weight: 400;
+}
+
+.icones-redes-sociais{
+    display: flex;
+    gap: 16px;
+}
+
+.icones-redes-sociais a{
+    background-color: #f3f3f3;
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 4px 4px 8px black;
+    transition: 0.5s;
+}
+
+.icones-redes-sociais a:hover{
+    background-color: var(--vermelho);
+    color: white;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+}
+
+.formulario input{
+    height: 40px;
+    border: none;
+    background-color: #eee;
+    padding: 8px;
+}
+
+.logar{
+    background-color: var(--vermelho);
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container-registrar{
+    display: flex;
+    gap: 4px;
+}
+
+.container-registrar a{
+    font-weight: 600;
+}
